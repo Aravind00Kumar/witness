@@ -4,13 +4,15 @@
   "description": "witness",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "learning:debug": "npm run ts-node ./src/decorators.ts --workspace packages/learning"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "workspaces": [
     "packages/web",
-    "packages/server"
+    "packages/server",
+    "packages/learning"
   ]
 }
