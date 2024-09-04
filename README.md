@@ -44,6 +44,10 @@ npm run install --workspace packages/web
 
 npm run ng generate application app --workspace packages/web
 
+// create angular client library
+
+npm run ng generate library client-lib  --workspace packages/web
+
 // run the angular project
 
 npm run start --workspace packages/web
